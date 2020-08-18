@@ -18,13 +18,11 @@ git add -A
 git commit -m 'deploy'
 git remote add origin git@github.com:waynehoo/doc.git
 git checkout -b gh-pages
-#git remote add origin https://github.com/waynehoo/doc.github.io.git
 
 # 如果发布到 https://<USERNAME>.github.io
 #git push -f git@github.com:zpj80231/zpj80231.github.io.git gh-pages
 #git push origin :gh-pages
 git push -u origin gh-pages -f
-#git push -f https://github.com/waynehoo/doc.github.io.git master
 
 cd ..
 #git init
