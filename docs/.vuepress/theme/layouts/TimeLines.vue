@@ -3,7 +3,7 @@
   <Common :sidebar="false" :isComment="false">
     <ul class="timeline-wrapper">
       <ModuleTransition >
-        <li v-show="recoShowModule" class="desc">Yesterday Once More!</li>
+        <li v-show="recoShowModule" class="desc">岁月有着不动声色的力量</li>
       </ModuleTransition>
       <ModuleTransition
         :delay="String(0.08 * (index + 1))"
@@ -80,7 +80,7 @@ export default {
   .desc, .year {
     position: relative;
     color var(--text-color);
-    font-size 16px
+    font-size 20px
     &:before {
       content: " ";
       position: absolute;

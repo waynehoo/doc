@@ -37,15 +37,13 @@
 <script>
     let rewarder = [
         // ['打赏者','打助金额','支付方式','时间','备注'],
-        ['John', '12', '微信', '2020-06-09', 'tip of you'],
-        ['艾斯', '32', '支付宝', '2020-07-11', '火拳赞赏']
     ]
     export default {
         name: "Reward",
         data() {
             return {
                 rewarder,
-                src: "/znote/vuepress/zanshang01.png"
+                src: "/doc/vuepress/donate.png"
             }
         }
     }

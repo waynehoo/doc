@@ -1,7 +1,7 @@
 //导航栏
 module.exports = [
-    {text: '主页', link: '/index.html', icon: 'reco-home'},
-    {
+    { text: '主页', link: '/index.html', icon: 'reco-home' },
+    /* {
         text: '其它', icon: 'reco-document',
         items: [
             {
@@ -44,7 +44,7 @@ module.exports = [
                     link: 'https://www.tiobe.com/tiobe-index/',
                 }]
             },]
-    },
-    {text: '时间线', link: '/timeline/', icon: 'reco-date'},
-    {text: '关于我', link: '/about/', icon: 'reco-message'}
+    }, */
+    { text: '时间线', link: '/timeline/', icon: 'reco-date' },
+    { text: '关于我', link: '/about/', icon: 'reco-message' }
 ]
