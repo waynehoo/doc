@@ -20,13 +20,13 @@ git remote add origin git@github.com:waynehoo/doc.git
 git checkout -b gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io
-#git push -f git@github.com:zpj80231/zpj80231.github.io.git gh-pages
+#git push -f git@github.com:waynehoo/waynehoo.github.io.git gh-pages
 #git push origin :gh-pages
 git push -u origin gh-pages -f
 
 cd ..
 #git init
-#git remote add origin git@github.com:zpj80231/znote.git
+#git remote add origin git@github.com:waynehoo/doc.git
 git add .
 git commit -m 'update docs' 
 git push origin master

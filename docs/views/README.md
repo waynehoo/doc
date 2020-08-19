@@ -1,18 +1,18 @@
 ---
 title: 概览
 sidebar: true
-date: 2019-08-21
+date: 2020-08-18
 sidebarDepth: 0
 isShowComments: true
 ---
 
-<div style="height: 120px">
+<!-- <div style="height: 120px">
 	<Boxx :changeTime='changeTime' />
-</div>
+</div> -->
 
-<p style='display: block;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;'>
+<!-- <p style='display: block;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;'>
 	<img id='imgShow' :class='active' :src='imgSrc'/>
-</p>
+</p> -->
 
 <div id='category'>
 
@@ -28,13 +28,19 @@ isShowComments: true
 
 <div id='fj'>
 
-[【前端】](/views/front-end/js-json.html) | [【后端】](/views/java/ArrayList.html)
+[【前端】](/views/front-end/splice_split.html) | [【后端】](/views/back-end/substr_substring.html)
 
 </div>
 
 <div id='se'>
 
- [【规范】](/views/specification/ali.html) | [【随笔】](/views/essay/20191109.html)
+[【数据库】](/views/db/func_date_format.html) | [【算法】](/views/algorithm/regex.html)
+
+</div>
+
+<div id='se'>
+
+[【代码段】](/views/code-snippet/java_time.html) | [【面试题】](/views/interview/ArrayList_LinkedList.html)
 
 </div>
 
@@ -44,7 +50,7 @@ isShowComments: true
 			return {
                 changeTime: '2000',
 				index: 2,
-				imgSrc: '/znote/view/比心1.png',
+				imgSrc: '/doc/view/比心1.png',
 				active: 'active'
 			}
 		},
@@ -64,7 +70,7 @@ isShowComments: true
 					}else {
 						this.active="active";
 					}
-					this.imgSrc = '/znote/view/' + picList[Math.floor(Math.random() * picList.length)]
+					this.imgSrc = '/doc/view/' + picList[Math.floor(Math.random() * picList.length)]
 					
 				}, 5000)
 			},
@@ -224,5 +230,3 @@ isShowComments: true
 		}
 	}
 </style>
-
-

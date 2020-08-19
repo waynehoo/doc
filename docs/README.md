@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: '/vuepress/topic.png'
+heroImage: '/vuepress/topic.gif'
 faceImage: '/vuepress/head.png'
 heroImageStyle: {
   maxWidth: '800px',
@@ -14,46 +14,46 @@ heroImageStyle: {
   background: 'rgba(0, 0, 0, 0.8) none repeat scroll !important',
 }
 isShowTitleInHome: true
-actionText: '开启进阶之路'
+actionText: '推门进入'
 actionLink: /views/
 features:
 - title: 
-  details: 把所有的不快给昨天
+  details: 好好学习
 - title: 
-  details: 把所有的努力给今天
+  details: yeah，加油   
 - title: 
-  details: 把所有的希望给明天
+  details: 天天向上
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
 <Clock/>
 
-::: tip 昨天 今天 明天
-
-问一问，人的一生能有几天 <br/>
-算一算，人的一生不过三天 <br/>
-
-跑过去的是昨天 <br/>
-奔过来的是明天 <br/>
-正在走的是今天 <br/>
-
-不要忘记昨天 <br/>
-认真计划明天 <br/>
-好好把握今天 <br/>
-
-但愿到了明天 <br/>
-今天已成昨天 <br/>
-而你依然在我身边 <br/>
-
-春梦无痕，秋夜缠绵 <br/>
-如歌岁月，似水流年 <br/>
-
-但愿到了明天 <br/>
-今天已成昨天 <br/>
-而我依然在你心间  
-
-:::
-
+```text
+////////////////////////////////////////////////////////////////////
+//                          _ooOoo_                               //
+//                         o8888888o                              //
+//                         88" . "88                              //
+//                         (| ^_^ |)                              //
+//                         O\  =  /O                              //
+//                      ____/`---'\____                           //
+//                    .'  \\|     |//  `.                         //
+//                   /  \\|||  :  |||//  \                        //
+//                  /  _||||| -:- |||||-  \                       //
+//                  |   | \\\  -  /// |   |                       //
+//                  | \_|  ''\---/''  |   |                       //
+//                  \  .-\__  `-`  ___/-. /                       //
+//                ___`. .'  /--.--\  `. . ___                     //
+//              ."" '<  `.___\_<|>_/___.'  >'"".                  //
+//            | | :  `- \`.;`\ _ /`;.`/ - ` : | |                 //
+//            \  \ `-.   \_ __\ /__ _/   .-` /  /                 //
+//      ========`-.____`-.___\_____/___.-`____.-'========         //
+//                           `=---='                              //
+//      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        //
+//                                                                //
+////////////////////////////////////////////////////////////////////
+``` 
+::: tip 感谢 zpj80231 
+博客改自 [https://github.com/zpj80231/znote](https://github.com/zpj80231/znote)
 <!-- <CanvasNest color='0,23,255' zIndex='-2'></CanvasNest> -->
 
 <script>
