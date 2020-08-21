@@ -14,7 +14,7 @@ module.exports = {
             title: '后端',
             collapsable: true,
             children: [
-                'back-end/substr_substring'
+                'back-end/string_list'
             ]
         },
         {

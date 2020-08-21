@@ -28,7 +28,7 @@ isShowComments: true
 
 <div id='fj'>
 
-[【前端】](/views/front-end/splice_split.html) | [【后端】](/views/back-end/substr_substring.html)
+[【前端】](/views/front-end/splice_split.html) | [【后端】](/views/back-end/string_list.html)
 
 </div>
 
