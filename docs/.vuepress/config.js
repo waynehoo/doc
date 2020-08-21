@@ -11,7 +11,7 @@ module.exports = {
   head: [
     ['link', {
       rel: 'icon',
-      href: 'https://infinitypro-img.infinitynewtab.com/custom-icon/8001de1jd3n68lbfnxxt564xvb0vl5.png?imageMogr2/thumbnail/240x/format/webp/blur/1x0/quality/100|imageslim'
+      href:'/img/favicon.ico' 
     }],
     ['meta', {
       name: 'viewport',

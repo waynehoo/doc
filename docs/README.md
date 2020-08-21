@@ -20,7 +20,7 @@ features:
 - title: 
   details: 好好学习
 - title: 
-  details: yeah，加油   
+  details: Yeah，加油！  
 - title: 
   details: 天天向上
 footer: MIT Licensed | Copyright © 2018-present Evan You
@@ -52,8 +52,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 //                                                                //
 ////////////////////////////////////////////////////////////////////
 ``` 
-::: tip 感谢 zpj80231 
-博客改自 [https://github.com/zpj80231/znote](https://github.com/zpj80231/znote)
+> 博客改自 [https://github.com/zpj80231/znote](https://github.com/zpj80231/znote)  感谢 zpj80231 
 <!-- <CanvasNest color='0,23,255' zIndex='-2'></CanvasNest> -->
 
 <script>
