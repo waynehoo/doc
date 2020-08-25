@@ -25,6 +25,13 @@ module.exports = {
             ]
         },
         {
+            title: '工具',
+            collapsable: true,
+            children: [
+                'tools/git_github_gitee'
+            ]
+        },
+        {
             title: '数据库',
             collapsable: true,
             children: [
