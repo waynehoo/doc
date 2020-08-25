@@ -5,7 +5,7 @@ tags:
 - Git
 categories:
 - "工具"
-isShowComments: false
+isShowComments: true
 ---
 
  <Boxx/> 
@@ -123,4 +123,4 @@ config内容：
 	url = git@gitee.com:wayne05/doc.git
 ```
 
-**执行`git push`即可同时推送多个仓库。**
+**执行`git push origin master`即可同时推送多个仓库。**

@@ -42,7 +42,8 @@ module.exports = {
             title: '代码段',
             collapsable: true,
             children: [
-                'code-snippet/java_time'
+                'code-snippet/java_time',
+                'code-snippet/regex'
             ]
         },
         {
