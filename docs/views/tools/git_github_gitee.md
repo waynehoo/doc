@@ -38,7 +38,7 @@ ssh-keygen -t rsa -C "XXX@example.com" -f "gitee_id_rsa"
 
 ![](/doc/img/tools/git-keys.png)
 
-**4.用户`.ssh`下(与密钥对同级目录)新建config配置文件，git通过ssh与远端仓库交互。本地配置的为私钥，公钥需要添加在`github`或者`gitee`中,如何在`github`或者`gitee`中配置公钥这里不赘述。**
+**4.用户`.ssh`下(与密钥对同级目录)新建config配置文件，git通过ssh与远端仓库交互。本地配置的为私钥，公钥需要添加在`github`或者`gitee`中,如何在`github`或者`gitee`中配置公钥这里不赘述。** [gitee参考](https://gitee.com/help/articles/4191#article-header0)/[github参考](https://docs.github.com/cn/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 
 ```bash
 # gitee person
