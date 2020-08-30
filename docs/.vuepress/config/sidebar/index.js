@@ -21,7 +21,7 @@ module.exports = {
             title: '算法',
             collapsable: true,
             children: [
-                'algorithm/regex'
+                'algorithm/array_intersection'
             ]
         },
         {
