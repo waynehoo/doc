@@ -34,7 +34,7 @@ isShowComments: true
 
 <div id='se'>
 
-[【数据库】](/views/db/func_date_format.html) | [【算法】](/views/algorithm/regex.html)
+[【数据库】](/views/db/func_date_format.html) | [【算法】](/views/algorithm/array_intersection.html)
 
 </div>
 

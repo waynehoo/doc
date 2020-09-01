@@ -28,6 +28,8 @@ git push -u origin gh-pages -f
 
 # 更新github和gitee的master分支
 cd ..
+cd ..
+cd ..
 #git init
 #git remote add origin git@github.com:waynehoo/doc.git
 git add .
