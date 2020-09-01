@@ -21,7 +21,8 @@ module.exports = {
             title: '算法',
             collapsable: true,
             children: [
-                'algorithm/array_intersection'
+                'algorithm/array_intersection',
+                'algorithm/longest_common_prefix'
             ]
         },
         {
