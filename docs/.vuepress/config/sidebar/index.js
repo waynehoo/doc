@@ -29,7 +29,8 @@ module.exports = {
             title: '工具',
             collapsable: true,
             children: [
-                'tools/git_github_gitee'
+                'tools/git_github_gitee',
+                'tools/git_stash'
             ]
         },
         {
