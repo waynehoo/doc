@@ -30,7 +30,9 @@ module.exports = {
             collapsable: true,
             children: [
                 'tools/git_github_gitee',
-                'tools/git_stash'
+                'tools/git_stash',
+                'tools/git_delete',
+                'tools/git_init'
             ]
         },
         {
