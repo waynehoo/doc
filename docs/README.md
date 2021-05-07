@@ -14,46 +14,21 @@ heroImageStyle: {
   background: 'rgba(0, 0, 0, 0.8) none repeat scroll !important',
 }
 isShowTitleInHome: true
-actionText: '推门进入'
+actionText: '开始学习'
 actionLink: /views/
 features:
 - title: 
   details: 好好学习
 - title: 
-  details: Yeah，加油！  
+  details: 2021  
 - title: 
   details: 天天向上
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
-<Clock/>
+<!-- <Clock/> -->
 
-```text
-
-
-                          _ooOoo_                               
-                         o8888888o                              
-                         88" . "88                              
-                         (| ^_^ |)                              
-                         O\  =  /O                              
-                      ____/`---'\____                           
-                    .'  \\|     |//  `.                         
-                   /  \\|||  :  |||//  \                        
-                  /  _||||| -:- |||||-  \                       
-                  |   | \\\  -  /// |   |                       
-                  | \_|  ''\---/''  |   |                       
-                  \  .-\__  `-`  ___/-. /                       
-                ___`. .'  /--.--\  `. . ___                     
-              ."" '<  `.___\_<|>_/___.'  >'"".                  
-            | | :  `- \`.;`\ _ /`;.`/ - ` : | |                 
-            \  \ `-.   \_ __\ /__ _/   .-` /  /                 
-      ========`-.____`-.___\_____/___.-`____.-'========         
-                           `=---='                              
-     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        
-
-                                                             
-``` 
-> 博客改自 [https://github.com/zpj80231/znote](https://github.com/zpj80231/znote)  感谢 zpj80231 
+<!-- > 博客改自 [https://github.com/zpj80231/znote](https://github.com/zpj80231/znote)  感谢 zpj80231  -->
 <!-- <CanvasNest color='0,23,255' zIndex='-2'></CanvasNest> -->
 
 <script>
@@ -82,6 +57,9 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
     pointer-events: none;
     cursor: default;
     opacity: 0.6;
+}
+.home .features {
+    text-align: center;
 }
 .home .feature p {
     color: #476582 !important;

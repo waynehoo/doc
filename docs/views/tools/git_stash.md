@@ -89,6 +89,9 @@ $ git cherry-pick [commit]
 # 删除分支
 $ git branch -d [branch-name]
 # 删除远程分支
+# 方法一
 $ git push origin --delete [branch-name]
-$ git branch -dr [remote/branch]     
+# 方法二
+$ git branch -dr [remote/branch]     #例如 git branch -dr origin/nb0506
+$ git push origin :nb0506   # 例如 git push origin :nb0506（注意格式）
 ```

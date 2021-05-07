@@ -2,9 +2,9 @@
     <div>
         <div v-html="html"/>
         <p>
-<br>
+<!-- <br>
 —————————— <br>
-内容链接：<a :href="location">{{location}}</a>
+内容链接：<a :href="location">{{location}}</a> -->
         </p>
     </div>
 </template>
